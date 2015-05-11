@@ -1,0 +1,21 @@
+name = "Drupal code registry test"
+description = "Support module for testing the code registry."
+files[] = drupal_autoload_test_interface.inc
+files[] = drupal_autoload_test_class.inc
+package = Testing
+version = VERSION
+core = 7.x
+hidden = TRUE
+
+<<<<<<< HEAD
+; Information added by Drupal.org packaging script on 2015-05-07
+version = "7.37"
+project = "drupal"
+datestamp = "1430973154"
+=======
+; Information added by Drupal.org packaging script on 2015-04-02
+version = "7.36"
+project = "drupal"
+datestamp = "1427943826"
+>>>>>>> 4d3d7870a7b2123139bbf9e065c75da828b2e5d2
+

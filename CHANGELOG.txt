@@ -1,5 +1,6 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Drupal 7.37, 2015-05-07
 -----------------------
 - Fixed a regression in Drupal 7.36 which caused certain kinds of content types
@@ -22,6 +23,8 @@ Drupal 7.37, 2015-05-07
 
 =======
 >>>>>>> 4d3d7870a7b2123139bbf9e065c75da828b2e5d2
+=======
+>>>>>>> origin/master
 Drupal 7.36, 2015-04-01
 -----------------------
 - Added a 'file_public_schema' variable which allows modules that define

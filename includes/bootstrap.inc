@@ -9,10 +9,14 @@
  * The current system version.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 define('VERSION', '7.37');
 =======
 define('VERSION', '7.36');
 >>>>>>> 4d3d7870a7b2123139bbf9e065c75da828b2e5d2
+=======
+define('VERSION', '7.36');
+>>>>>>> origin/master
 
 /**
  * Core API compatibility.

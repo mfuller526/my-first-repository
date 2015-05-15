@@ -5395,11 +5395,25 @@ function drupal_cron_run() {
 
 /**
  * DEPRECATED: Shutdown function: Performs cron cleanup.
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
  *
  * This function is deprecated because the 'cron_semaphore' variable it
  * references no longer exists. It is therefore no longer used as a shutdown
  * function by Drupal core.
  *
+<<<<<<< HEAD
+=======
+ *
+ * This function is deprecated because the 'cron_semaphore' variable it
+ * references no longer exists. It is therefore no longer used as a shutdown
+ * function by Drupal core.
+ *
+>>>>>>> 4d3d7870a7b2123139bbf9e065c75da828b2e5d2
+=======
+>>>>>>> origin/master
  * @deprecated
  */
 function drupal_cron_cleanup() {

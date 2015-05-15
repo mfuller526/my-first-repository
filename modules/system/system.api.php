@@ -606,19 +606,7 @@ function hook_cron() {
  * @return
  *   An associative array where the key is the queue name and the value is
  *   again an associative array. Possible keys are:
-<<<<<<< HEAD
  *   - 'worker callback': The name of an implementation of
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
- *   - 'worker callback': The name of an implementation of
-=======
- *   - 'worker callback': A PHP callable to call that is an implementation of
->>>>>>> 4d3d7870a7b2123139bbf9e065c75da828b2e5d2
-=======
- *   - 'worker callback': A PHP callable to call that is an implementation of
->>>>>>> origin/master
->>>>>>> 7f5fb489631dfb4b487578d3f8a191aff4b53e5b
  *     callback_queue_worker().
  *   - 'time': (optional) How much time Drupal should spend on calling this
  *     worker in seconds. Defaults to 15.

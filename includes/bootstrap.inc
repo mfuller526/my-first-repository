@@ -8,19 +8,7 @@
 /**
  * The current system version.
  */
-<<<<<<< HEAD
 define('VERSION', '7.37');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-define('VERSION', '7.37');
-=======
-define('VERSION', '7.36');
->>>>>>> 4d3d7870a7b2123139bbf9e065c75da828b2e5d2
-=======
-define('VERSION', '7.36');
->>>>>>> origin/master
->>>>>>> 7f5fb489631dfb4b487578d3f8a191aff4b53e5b
 
 /**
  * Core API compatibility.

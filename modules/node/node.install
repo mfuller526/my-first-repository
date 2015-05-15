@@ -114,6 +114,7 @@ function node_schema() {
       'uid'                 => array('uid'),
       'tnid'                => array('tnid'),
       'translate'           => array('translate'),
+      'language'            => array('language'),
     ),
     'unique keys' => array(
       'vid' => array('vid'),
@@ -926,5 +927,46 @@ function node_update_7013() {
 }
 
 /**
+ * Add an index on {node}.language.
+ */
+function node_update_7014() {
+  db_add_index('node', 'language', array('language'));
+}
+
+/**
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7f5fb489631dfb4b487578d3f8a191aff4b53e5b
+>>>>>>> f2faf00e08b80aafac87d5460a602c81ecd42154
+=======
+>>>>>>> origin/master
+ * Enable node types that may have been erroneously disabled in Drupal 7.36.
+ */
+function node_update_7015() {
+  db_update('node_type')
+    ->fields(array('disabled' => 0))
+    ->condition('base', 'node_content')
+    ->execute();
+}
+
+/**
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4d3d7870a7b2123139bbf9e065c75da828b2e5d2
+=======
+>>>>>>> origin/master
+>>>>>>> 7f5fb489631dfb4b487578d3f8a191aff4b53e5b
+>>>>>>> f2faf00e08b80aafac87d5460a602c81ecd42154
+=======
+>>>>>>> origin/master
  * @} End of "addtogroup updates-7.x-extra".
  */

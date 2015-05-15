@@ -5,8 +5,41 @@ version = VERSION
 core = 7.x
 stylesheets[all][] = layout.css
 
-; Information added by drupal.org packaging script on 2013-08-08
-version = "7.23"
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+; Information added by Drupal.org packaging script on 2015-05-07
+version = "7.37"
 project = "drupal"
-datestamp = "1375928238"
+datestamp = "1430973154"
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2faf00e08b80aafac87d5460a602c81ecd42154
+=======
+>>>>>>> origin/master
+; Information added by Drupal.org packaging script on 2015-05-07
+version = "7.37"
+project = "drupal"
+datestamp = "1430973154"
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+; Information added by Drupal.org packaging script on 2015-04-02
+version = "7.36"
+project = "drupal"
+datestamp = "1427943826"
+>>>>>>> 4d3d7870a7b2123139bbf9e065c75da828b2e5d2
+=======
+; Information added by Drupal.org packaging script on 2015-04-02
+version = "7.36"
+project = "drupal"
+datestamp = "1427943826"
+>>>>>>> origin/master
+>>>>>>> 7f5fb489631dfb4b487578d3f8a191aff4b53e5b
+>>>>>>> f2faf00e08b80aafac87d5460a602c81ecd42154
+=======
+>>>>>>> origin/master
 

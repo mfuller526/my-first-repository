@@ -480,28 +480,6 @@ class FileValidatorTest extends DrupalWebTestCase {
    * Test file_validate_size().
    */
   function testFileValidateSize() {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-    global $user;
-    $original_user = $user;
-    drupal_save_session(FALSE);
-
-    // Run these tests as a regular user.
-    $user = $this->drupalCreateUser();
-
->>>>>>> 4d3d7870a7b2123139bbf9e065c75da828b2e5d2
->>>>>>> 7f5fb489631dfb4b487578d3f8a191aff4b53e5b
->>>>>>> f2faf00e08b80aafac87d5460a602c81ecd42154
-=======
->>>>>>> origin/master
-=======
->>>>>>> 6ac2274ca09d38fe54e4c0af28610257e14dfcb5
     // Create a file with a size of 1000 bytes, and quotas of only 1 byte.
     $file = new stdClass();
     $file->filesize = 1000;

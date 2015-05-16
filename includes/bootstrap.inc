@@ -10,6 +10,7 @@
  */
 define('VERSION', '7.37');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 define('VERSION', '7.37');
@@ -27,6 +28,8 @@ define('VERSION', '7.36');
 >>>>>>> f2faf00e08b80aafac87d5460a602c81ecd42154
 =======
 >>>>>>> origin/master
+=======
+>>>>>>> 6ac2274ca09d38fe54e4c0af28610257e14dfcb5
 
 /**
  * Core API compatibility.

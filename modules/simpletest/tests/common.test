@@ -944,6 +944,7 @@ class CascadingStylesheetsUnitTest extends DrupalUnitTestCase {
    * - Don't adjust data URIs. (https://drupal.org/node/2142441)
    * - Files imported from external URLs. (https://drupal.org/node/2014851)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
    * - Files imported from external URLs. (https://drupal.org/node/2014851)
@@ -959,6 +960,8 @@ class CascadingStylesheetsUnitTest extends DrupalUnitTestCase {
 >>>>>>> f2faf00e08b80aafac87d5460a602c81ecd42154
 =======
 >>>>>>> origin/master
+=======
+>>>>>>> 6ac2274ca09d38fe54e4c0af28610257e14dfcb5
    */
   function testLoadCssBasic() {
     // Array of files to test living in 'simpletest/files/css_test_files/'.

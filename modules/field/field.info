@@ -13,12 +13,16 @@ stylesheets[all][] = theme/field.css
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 6ac2274ca09d38fe54e4c0af28610257e14dfcb5
 ; Information added by Drupal.org packaging script on 2015-05-07
 version = "7.37"
 project = "drupal"
 datestamp = "1430973154"
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48,4 +52,6 @@ datestamp = "1427943826"
 >>>>>>> f2faf00e08b80aafac87d5460a602c81ecd42154
 =======
 >>>>>>> origin/master
+=======
+>>>>>>> 6ac2274ca09d38fe54e4c0af28610257e14dfcb5
 
